@@ -409,6 +409,16 @@ header{
         justify-content: center;
     }
 
+    .row-benefit{
+        flex-wrap: wrap;
+    }
+
+    .col4-benefit{
+        width: calc(6 * 100% / 12)
+    }
+
+
+
     
 
     
@@ -452,4 +462,14 @@ header{
         padding: 0px 20px 20px 20px;
     }
 
+    .row-benefit{
+        flex-wrap: wrap;
+    }
 
+    .col4-benefit{
+        max-width: 100%;
+    }
+
+
+
+}
