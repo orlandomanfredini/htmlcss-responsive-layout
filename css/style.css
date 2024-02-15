@@ -55,10 +55,12 @@ button{
 
 .col8{
     width: calc(8 * 100% /12);
+   max-height: 350px;
 }
 
 .col4{
     width: calc(4 * 100% / 12);
+    max-height: 350px;
 }
 
 /* layout */
@@ -97,9 +99,14 @@ header{
     padding: 30px 0;
 }
 
+.pd-7px{
+    padding: 7px;
+}
+
 .card-section{
     border-radius: 20px;
     background-color:rgb(181, 221, 255);
+    
 }
 
 
@@ -146,6 +153,32 @@ header{
     padding: 0 5px;
 }
 
+.flex-card{
+    display: flex;
+}
+
+.col4 .card i{
+    font-size: 58px;
+    color: rgb(0, 132, 253);
+}
+
+
+.col4 .card h3{
+    font-size: 20px;
+    color: rgb(0, 132, 253);
+}
+
+.col4 .card p{
+    line-height: 22px;
+}
+
+.item-card{
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    
+    gap: 25px;
+}
 
 
 
