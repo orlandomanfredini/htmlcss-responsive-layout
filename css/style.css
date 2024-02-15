@@ -1,3 +1,5 @@
+/* FONT */
+
 /* Reset */
 *{
     margin: 0;
@@ -18,5 +20,132 @@ ul,li, menu{
     list-style: none;
 }
 
-/* Container */
+button{
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: currentColor;
+    background-color: white;
+    border: none;
+}
+
+
+
+/* Container e stuttura*/
+
+.container-sm{
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.container-lg{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    
+}
+
+.col8{
+    width: calc(8 * 100% /12);
+}
+
+.col4{
+    width: calc(4 * 100% / 12);
+}
+
+/* layout */
+
+header{
+    background-color: rgb(0, 132, 253);
+}
+
+.flex-header{
+    justify-content: space-between;
+}
+
+.logo img{
+    padding-top:5px;
+}
+
+.link-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-header li:first-child{
+    display: none;
+}
+
+.link-header li{
+    padding: 0 5px;
+}
+
+.link-header a{
+    color: white;
+}
+
+.hero{
+    padding: 30px 0;
+}
+
+.card-section{
+    border-radius: 20px;
+    background-color:rgb(181, 221, 255);
+}
+
+
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    width: 60%;
+}
+
+.card-content h4{
+    color:rgb(0, 132, 253) ;
+    font-size: 22px;
+    padding-top: 20px;
+}
+
+.card-content p{
+    word-spacing: 2px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.image{
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.image img{
+    padding: 35px 40px 0 25px;
+    
+}
+
+.btn-card{
+    color: white;
+    background-color: rgb(0, 132, 253);
+    font-size: 18px;
+}
+
+.btn-card i, .btn-card span{
+    padding: 0 5px;
+}
+
+
+
 
