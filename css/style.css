@@ -51,16 +51,19 @@ button{
 .card{
     display: flex;
     
+    
 }
 
 .col8{
     width: calc(8 * 100% /12);
-   max-height: 350px;
+    
+    
 }
 
 .col4{
     width: calc(4 * 100% / 12);
-    max-height: 350px;
+    
+    
 }
 
 /* layout */
@@ -96,7 +99,7 @@ header{
 }
 
 .hero{
-    padding: 30px 0;
+    padding: 30px 0 60px 0;
 }
 
 .pd-7px{
@@ -106,7 +109,7 @@ header{
 .card-section{
     border-radius: 20px;
     background-color:rgb(181, 221, 255);
-    
+    height: 100%;
 }
 
 
@@ -160,6 +163,7 @@ header{
 .col4 .card i{
     font-size: 58px;
     color: rgb(0, 132, 253);
+    margin-top: 15px;
 }
 
 
@@ -170,15 +174,127 @@ header{
 
 .col4 .card p{
     line-height: 22px;
+    padding-bottom: 15px;
 }
 
 .item-card{
     flex-direction: column;
     align-items: stretch;
     text-align: center;
-    
     gap: 25px;
+    padding: 15px;
+}
+
+.strategic{
+    background-color: rgb(151, 146, 229);
+    padding: 60px 0;
+}
+
+.col6{
+    width: 50%;
+    padding: 20px;
+}
+
+.col6-end{
+    display: flex;
+    align-items: flex-end;
 }
 
 
 
+.col6 img{
+     max-width: 80%;
+     padding-bottom: 20px;
+}
+
+.col6 h2, .col6 p{
+    color: white;
+    margin-top: 30px;
+}
+
+.col6 p{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.card-strategic{
+    max-width: 80%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-strategic img{
+    max-width: 70%;
+}
+
+.card-strategic p{
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card-strategic h4{
+    text-align: center;
+   
+}
+
+.btn-strategic{
+    border-radius: 50%;
+    background-color: rgb(151, 146, 229);
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* media query */       /* desktop-first */
+
+/* tabelet-vision */
+
+@media (max-width:992px){
+    .link-header{
+        flex-direction: row-reverse;
+    }
+
+    .link-header li:first-child{
+        display: block;
+        color: white;
+    }
+
+    .link-header a, .link-header li button{
+        display: none;
+    }
+
+    .card.card-section{
+        flex-wrap: wrap;
+
+    }
+
+   
+    .card-content{
+        width: 100%;
+
+    }
+
+    .image{
+        width: 100%;
+    }
+
+    .image img{
+        max-width: 50%;
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    
+
+    
+
+    
+}
