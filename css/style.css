@@ -204,7 +204,7 @@ header{
 
 .col6 img{
      max-width: 80%;
-     padding-bottom: 20px;
+     padding-bottom: 50px;
 }
 
 .col6 h2, .col6 p{
@@ -293,8 +293,29 @@ header{
     }
 
     
+    .row-50{
+        flex-wrap: wrap;
+    }
+
+    .col6 img{
+        display: block;
+        margin: auto;
+    }
+
+    .col6{
+        width: 100%;
+        justify-content: center;
+    }
 
     
 
+    
+}
+
+
+
+/* mobile version */
+
+@media (max-width:576px){
     
 }
