@@ -317,5 +317,16 @@ header{
 /* mobile version */
 
 @media (max-width:576px){
+
+    .col8{
+        width: 100%;
+    }
     
+    .col4{
+        width: 100%;
+    }
+
+    .image{
+        justify-content: center;
+    }
 }
