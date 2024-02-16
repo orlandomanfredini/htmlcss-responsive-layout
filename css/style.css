@@ -355,6 +355,62 @@ header{
     color: white;
 }
 
+.about-us{
+    padding: 50px 0;
+}
+
+.col6-text{
+    width: 75%;
+}
+
+.col6-text h1{
+    color: rgb(151, 146, 229);
+    font-size: 36px;
+    text-align: center;
+}
+
+.col6-text p{
+    color: black;
+    line-height: 28px;
+}
+
+.col6-profile{
+    width: 25%;
+    position: relative;
+}
+
+.col6-profile img{
+    padding: 0;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    
+
+    
+}
+
+.col6-profile > i{
+    font-size: 58px;
+    color: rgb(151, 146, 229);
+    position:absolute;
+    top: 25px;
+    right: 30px;
+}
+
+.col6-profile h4{
+    color: rgb(151, 146, 229);
+    margin-top: 15px;
+    line-height: 26px;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.col6-profile button{
+    background-color: rgb(151, 146, 229);
+    color: white;
+    margin-top: 25px;
+    
+}
+
 
 
 
