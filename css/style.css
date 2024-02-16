@@ -548,6 +548,14 @@ header{
         max-width: 100%;
     }
 
+    .col6-text{
+        width: 100%;
+    }
+
+    .col6-profile{
+        width: 45%;
+    }
+
 
 
 
