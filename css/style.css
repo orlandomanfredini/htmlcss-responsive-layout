@@ -390,7 +390,7 @@ header{
 }
 
 .col6-profile{
-    width: 35%;
+    width: 25%;
     position: relative;
 }
 
@@ -405,7 +405,7 @@ header{
     color: rgb(151, 146, 229);
     position:absolute;
     top: 25px;
-    right: 40px;
+    right: 30px;
 }
 
 .col6-profile h4{
@@ -559,7 +559,10 @@ footer .pd-oriz a{
     }
 
     .col6-profile > i{
-        font-size: 48px;
+        font-size: 45px;
+        position: absolute;
+        top: 25px;
+        right: 15px;
     }
 
 
@@ -625,6 +628,12 @@ footer .pd-oriz a{
 
     .col6-profile{
         width: 45%;
+    }
+
+    .col6-profile i{
+        position: absolute;
+        top: 25px;
+        right: 30px;
     }
 
 
@@ -742,3 +751,5 @@ footer .pd-oriz a{
 		transform: rotate(8deg);
 	}
 }
+
+
