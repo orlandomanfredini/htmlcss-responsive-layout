@@ -393,7 +393,7 @@ header{
     color: rgb(151, 146, 229);
     position:absolute;
     top: 25px;
-    right: 30px;
+    right: 40px;
 }
 
 .col6-profile h4{
@@ -442,8 +442,7 @@ header{
 
     }
 
-   
-    .card-content{
+   .card-content{
         width: 100%;
 
     }
@@ -458,7 +457,6 @@ header{
         padding-top: 20px;
     }
 
-    
     .row-50{
         flex-wrap: wrap;
     }
@@ -479,6 +477,18 @@ header{
 
     .col4-benefit{
         width: calc(6 * 100% / 12)
+    }
+
+    .col6-text{
+        width: 75%;
+    }
+
+    .col6-profile{
+        width: 25%;
+    }
+
+    .col6-profile > i{
+        font-size: 48px;
     }
 
 
@@ -537,6 +547,8 @@ header{
     .col4-benefit{
         max-width: 100%;
     }
+
+
 
 
 
