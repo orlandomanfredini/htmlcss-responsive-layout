@@ -419,12 +419,18 @@ header{
     text-align: center;
 }
 
-.pd-oriz{
-    padding: 0 80px;
+
+.rule-section{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 25px;
+}
+
+
+.pd-oriz{
+    padding: 0 80px;
+    
 }
 
 .pd-oriz h3 {
@@ -450,7 +456,21 @@ header{
     font-size: 12px;
 }
 
+footer{
+    padding: 50px 0px;
+    text-align: center;
+    background: rgb(36, 36, 36);
+    color: rgb(222, 221, 221);
+}
 
+footer .pd-oriz p{
+    padding-bottom: 60px;
+}
+
+footer .pd-oriz a{
+    text-decoration: underline;
+    color: rgb(151, 146, 229);
+}
 
 
 
