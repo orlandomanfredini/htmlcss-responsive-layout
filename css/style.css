@@ -61,12 +61,10 @@ button{
 .col8{
     width: calc(8 * 100% /12);
     
-    
 }
 
 .col4{
     width: calc(4 * 100% / 12);
-    
     
 }
 
