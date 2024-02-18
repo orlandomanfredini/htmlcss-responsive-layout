@@ -317,3 +317,70 @@ header{
     }
 }
 
+
+/* testimonials */
+
+.testimonials{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.row-testimonials{
+    padding: 20px 0;
+}
+
+.testimonials .container-lg span,  .testimonials .container-lg h3, .testimonials .container-lg p{
+    margin-top: 25px;
+}
+
+.testimonials .container-lg h3{
+    color: rgb(151, 146, 229);
+    font-size: 32px;
+}
+
+.col12-testimonials{
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.card-testimonials{
+    background-color: rgb(151, 146, 229);
+}
+
+.image-testimonials img{
+    max-width: 180px;
+    padding: 10px;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.body-testimonials{
+    padding: 10px;
+}
+
+.body-testimonials p{
+    display: inline;
+    
+}
+
+.testimonials .body-testimonials h5{
+    margin-top: 10px;
+}
+
+/* media query */
+
+@media (min-width: 576px){
+    .card-testimonials{
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+    }
+
+    .image-testimonials{
+        max-width: 200px;
+    }
+
+
+}
