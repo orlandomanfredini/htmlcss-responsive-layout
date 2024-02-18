@@ -248,3 +248,72 @@ header{
 }
 
 
+/* strategic */
+
+.strategic{
+    background-color:rgb(151, 146, 229) ;
+    padding: 40px 0;
+    color: white;
+    
+}
+
+.strategic .col12 h3{
+    font-size: 28px;
+    padding: 10px 0px;
+}
+
+.strategic .col12 p{
+    padding: 10px 0;
+}
+
+.card-strategic{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.card-strategic h4{
+    color: black;
+    font-size: 18px;
+}
+
+.card-strategic p{
+    color: black;
+}
+
+.btn-strategic{
+    aspect-ratio: 1;
+    background-color: rgb(151, 146, 229);
+    color: black;
+    border-radius: 50%;
+
+}
+
+/* media query */
+
+@media (min-width:768px){
+    .col-sm-6{
+        max-width: 50%;
+        
+        
+    }
+    
+    .strategic-col{
+        display: flex;
+        justify-content: center;
+        align-self: flex-end;
+    }
+
+    .card-strategic{
+        width: 80%;
+        padding: 20px;
+    }
+
+    .card-strategic img{
+        max-width: 70%;
+        
+    }
+}
+
